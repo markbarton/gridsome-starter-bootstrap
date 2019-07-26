@@ -17,3 +17,8 @@ fields:
 - type: file
   name: image
   label: image
+- name: special_test
+  type: text
+  config:
+    required: false
+  label: Special test
