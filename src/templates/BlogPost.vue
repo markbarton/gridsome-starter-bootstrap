@@ -18,6 +18,7 @@
         </div>
       </div>
       <BlogContent class="mt-5" :content="$page.post.content"/>
+      <span>{{ $page.post.specialTest}}</span>
     </div>
   </Layout>
 </template>
@@ -30,7 +31,8 @@ query BlogPost ($path: String!) {
     date
     timeToRead
     content
-    image
+    image,
+    specialTest
   }
 }
 </page-query>
