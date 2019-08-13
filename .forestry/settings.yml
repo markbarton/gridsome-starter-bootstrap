@@ -7,13 +7,13 @@ sections:
 - type: document
   path: contact
   label: Contact Information
+  read_only: false
 - type: directory
   path: blog
   label: Blog
   create: documents
   match: "**/*.md"
   templates:
-  - contact
   - author
   - blog-post
 upload_dir: uploads
