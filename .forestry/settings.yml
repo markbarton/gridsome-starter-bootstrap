@@ -7,7 +7,6 @@ sections:
 - type: document
   path: contact
   label: Contact Information
-  read_only: false
 - type: directory
   path: blog
   label: Blog
@@ -16,6 +15,15 @@ sections:
   templates:
   - author
   - blog-post
+- type: heading
+  label: Authors
+- type: directory
+  path: authors
+  label: Authors
+  create: all
+  match: "**/*"
+  templates:
+  - author
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
