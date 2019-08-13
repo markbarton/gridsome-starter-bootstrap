@@ -7,7 +7,6 @@ sections:
 - type: document
   path: contact
   label: Contact Information
-  match: "**/*"
 - type: directory
   path: blog
   label: Blog
