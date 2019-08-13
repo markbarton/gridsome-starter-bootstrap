@@ -24,4 +24,5 @@ fields:
     label: email
   label: Contact Details
 pages:
+- authors/markbarton.md
 - blog/markbarton.md
