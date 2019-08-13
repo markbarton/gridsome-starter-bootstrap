@@ -1,4 +1,24 @@
 ---
 label: Author
 hide_body: true
-fields: []
+fields:
+- name: author_name
+  type: text
+  config:
+    required: true
+  label: Author Name
+- name: contact_details
+  type: field_group
+  config: {}
+  fields:
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: email
+    type: text
+    config:
+      required: false
+    label: email
+  label: Contact Details
