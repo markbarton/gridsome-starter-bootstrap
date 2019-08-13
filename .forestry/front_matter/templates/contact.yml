@@ -1,6 +1,7 @@
 ---
 label: Contact
 hide_body: true
+display_field: test
 fields:
 - name: test
   type: text
