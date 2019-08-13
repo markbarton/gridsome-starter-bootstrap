@@ -23,3 +23,5 @@ fields:
       required: false
     label: email
   label: Contact Details
+pages:
+- blog/markbarton.md
