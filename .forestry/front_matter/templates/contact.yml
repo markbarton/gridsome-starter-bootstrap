@@ -8,3 +8,5 @@ fields:
   config:
     required: false
   label: Test
+pages:
+- blog/main_contact.md
